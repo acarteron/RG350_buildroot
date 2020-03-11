@@ -2,13 +2,19 @@
 
 ## WARNING
 This release support VGA resolution with JT035IPS02-V0 screen only, original RG350 screen is not supported in this release.
+
 Also it is based on latest commits on tonyjih's repositories (kernel and buildroot). Thus it is probably very unstable.
+
 It includes a custom version of esoteric with VGA resolution support.
 
 ## TO DO
 - [ ] update esoteric icons to match with vga resolution
 
 ## Instructions:<br>
+
+Releases:
+
+https://github.com/acarteron/RG350_buildroot/releases/tag/VGA-testing
 
 ## NOTE: This method erases the microsd, so backup of all your files.
 1. Download the base system "sd_image.bin" from the Releases page.
@@ -25,3 +31,17 @@ It includes a custom version of esoteric with VGA resolution support.
    
    sudo dd if=sd_image.bin of=/dev/[SD card mount point]
 #### 4. Do not resize the partitions!! <br> Just put the sdcard inside the console, it resize partition automatically.
+
+
+## Build instructions
+```
+make rg350_vga_defconfig BR2_EXTERNAL=board/opendingux
+make
+cd imager
+./do_image.sh
+```
+
+## Repositories
+RG350_linux: https://github.com/acarteron/RG350_linux
+RG350_buildroot: https://github.com/acarteron/RG350_buildroot
+Esoteric: https://github.com/acarteron/esoteric
