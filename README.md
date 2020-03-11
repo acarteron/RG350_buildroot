@@ -22,7 +22,7 @@ https://github.com/acarteron/RG350_buildroot/releases/tag/VGA-testing
 ### **for Windows:<br>**
 2. Format the new sdcard / internal sdcard with SD FORMATTER 5.0.1 ( https://www.sdcard.org/downloads/formatter/ ) two times.
 3. Flash the FW base image in the SD card with Balena Etcher ( https://www.balena.io/etcher/ ).
-#### 4. DO NOT RESIZE THE EXT4 PARTITION IN WINDOWS OR LINUX!!<br> Just put the sdcard inside the console, it resize partition automatically.
+4. DO NOT RESIZE THE EXT4 PARTITION IN WINDOWS OR LINUX!!<br> Just put the sdcard inside the console, it resize partition automatically.
 
 ### **for Linux:<br>**
 2. Format the new SD card / internel SD card with gnome-disk-utility.
@@ -30,7 +30,7 @@ https://github.com/acarteron/RG350_buildroot/releases/tag/VGA-testing
    Or type in a terminal:
    
    sudo dd if=sd_image.bin of=/dev/[SD card mount point]
-#### 4. Do not resize the partitions!! <br> Just put the sdcard inside the console, it resize partition automatically.
+4. Do not resize the partitions!! <br> Just put the sdcard inside the console, it resize partition automatically.
 
 
 ## Build instructions
@@ -43,5 +43,7 @@ cd imager
 
 ## Repositories
 RG350_linux: https://github.com/acarteron/RG350_linux
+
 RG350_buildroot: https://github.com/acarteron/RG350_buildroot
+
 Esoteric: https://github.com/acarteron/esoteric
