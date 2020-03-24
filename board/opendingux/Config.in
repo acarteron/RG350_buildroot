@@ -20,6 +20,7 @@ comment "Libraries"
 	source "$BR2_EXTERNAL/package/libxdgmime/Config.in"
 	source "$BR2_EXTERNAL/package/love2d/Config.in"
 	source "$BR2_EXTERNAL/package/utf8cpp/Config.in"
+	source "$BR2_EXTERNAL/package/libpng-14/Config.in"
 
 comment "System tools"
 	source "$BR2_EXTERNAL/package/dingux-commander/Config.in"
