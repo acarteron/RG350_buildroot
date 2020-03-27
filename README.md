@@ -49,3 +49,5 @@ RG350_buildroot: https://github.com/acarteron/RG350_buildroot
 Esoteric: https://github.com/acarteron/esoteric
 
 GMenu2X: https://github.com/acarteron/RG350-gmenu2x
+
+o2xiv: https://github.com/acarteron/o2xiv.git
