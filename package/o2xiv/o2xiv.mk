@@ -5,7 +5,7 @@
 ################################################################################
 
 O2XIV_VERSION = master
-O2XIV_SITE = $(call github,pcercuei,o2xiv,$(O2XIV_VERSION))
+O2XIV_SITE = $(call github,acarteron,o2xiv,$(O2XIV_VERSION))
 O2XIV_LICENSE = GPLv2
 O2XIV_LICENSE_FILES = COPYING
 
